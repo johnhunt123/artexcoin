@@ -1,0 +1,9 @@
+Building ArtexCoin
+
+See doc/readme-qt.rst for instructions on building ArtexCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of ArtexCoin.
+
+See doc/build-*.txt for instructions on building ArtexCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of ArtexCoin.

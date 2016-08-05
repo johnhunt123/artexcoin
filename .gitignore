@@ -1,0 +1,34 @@
+src/*.exe
+src/ArtexCoin
+src/ArtexCoind
+src/test_ArtexCoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.ArtexCoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+ArtexCoin-qt
+ArtexCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+ArtexCoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
