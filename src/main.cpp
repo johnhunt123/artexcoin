@@ -1069,6 +1069,10 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 	
 	if (nHeight == 1)
 		return 250000000 * COIN;
+		
+	// Fork to reduce reward
+	if (nHeight > 36500)
+		nSubsidy = 5 * COIN;
 
     nSubsidy >>= (nHeight / 250000);
 	
